@@ -32,7 +32,7 @@ func main() {
 		{"Carla", "7", "Water"}}
 
 	tables := displayTable(retorno)
-	for i, _ := range tables {
+	for i := range tables {
 		for _, j := range tables[i] {
 			fmt.Printf("%s, ", j)
 		}
